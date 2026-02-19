@@ -1,0 +1,26 @@
+{
+  "name": "claude-sessions",
+  "version": "1.0.0",
+  "description": "Terminal UI for browsing and resuming Claude Code sessions",
+  "type": "module",
+  "bin": {
+    "claude-sessions": "./bin/claude-sessions.js",
+    "cs": "./bin/claude-sessions.js"
+  },
+  "scripts": {
+    "start": "node bin/claude-sessions.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "fuse.js": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcd79/claude-sessions.git"
+  },
+  "keywords": ["claude", "claude-code", "sessions", "tui", "terminal", "cli"],
+  "license": "MIT"
+}
